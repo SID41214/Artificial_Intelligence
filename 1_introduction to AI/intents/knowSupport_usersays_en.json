@@ -1,0 +1,146 @@
+[
+  {
+    "id": "7cee7476-6726-498f-bfa8-db1c3faed21e",
+    "data": [
+      {
+        "text": "send me dsp support for ",
+        "userDefined": false
+      },
+      {
+        "text": "version",
+        "alias": "dspboardVersion",
+        "meta": "@dspboardVersion",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e14798bb-2fe0-4a5e-95a4-878ac05e7d1e",
+    "data": [
+      {
+        "text": "send me support for specific ",
+        "userDefined": false
+      },
+      {
+        "text": "DSPsupport",
+        "alias": "dspsupportTypes",
+        "meta": "@dspsupportTypes",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e7f27a2c-ac79-408b-8b52-7686f8d47b5a",
+    "data": [
+      {
+        "text": "send me the report to the country ",
+        "userDefined": false
+      },
+      {
+        "text": "india",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f0996543-7fee-48f4-a52f-c7e1a8d27a5b",
+    "data": [
+      {
+        "text": "what is the current update of DSP board available ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9cb1e4bd-0b8a-445d-ad5f-b689410fb29b",
+    "data": [
+      {
+        "text": "send me support for DSP to number ",
+        "userDefined": false
+      },
+      {
+        "text": "9047494960",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5a45eddd-f53c-4d95-aac2-42e3356632fa",
+    "data": [
+      {
+        "text": "Send me support for DSP to mail ",
+        "userDefined": false
+      },
+      {
+        "text": "sanjay@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3261e23c-6acf-40d0-ad18-fc0e7da8af1d",
+    "data": [
+      {
+        "text": "Give me DSP board support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "014707d2-c568-4d44-b6df-f0b2cdffd584",
+    "data": [
+      {
+        "text": "Details about DSP boards",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fe2be61f-c9d3-4d65-a4f6-a9fbe26513f8",
+    "data": [
+      {
+        "text": "can you give support on DSP boards",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "value": "cheese",
+    "synonyms": [
+      "cheese"
+    ]
+  },
+  {
+    "value": "spicy",
+    "synonyms": [
+      "chilli",
+      "spicy"
+    ]
+  }
+]

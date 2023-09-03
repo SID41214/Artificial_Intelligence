@@ -1,0 +1,32 @@
+{
+  "id": "a6accdb5-5e28-43e0-bef5-daad1e584541",
+  "parentId": "843185d3-7698-4faa-9fc2-768a6079241e",
+  "rootParentId": "843185d3-7698-4faa-9fc2-768a6079241e",
+  "name": "knowSupport - no",
+  "auto": true,
+  "contexts": [
+    "knowSupport-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "knowSupport.knowSupport-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "ok you will get only pdf support"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "4c8a7100-79f8-48b3-8813-3482d8ce24b1",
+  "name": "dspboardVersion",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

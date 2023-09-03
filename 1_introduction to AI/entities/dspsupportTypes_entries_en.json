@@ -1,0 +1,31 @@
+[
+  {
+    "value": "DSP Boards",
+    "synonyms": [
+      "DSP Boards",
+      "board",
+      "dspboard"
+    ]
+  },
+  {
+    "value": "DSP Tutorials",
+    "synonyms": [
+      "DSP",
+      "lessons"
+    ]
+  },
+  {
+    "value": "DSP classifications",
+    "synonyms": [
+      "DSP classifications",
+      "types"
+    ]
+  },
+  {
+    "value": "DSP specification",
+    "synonyms": [
+      "DSP specification",
+      "spec"
+    ]
+  }
+]

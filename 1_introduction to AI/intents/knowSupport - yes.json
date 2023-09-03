@@ -1,0 +1,32 @@
+{
+  "id": "e73cb0a2-bf29-4642-8746-608cef582df6",
+  "parentId": "843185d3-7698-4faa-9fc2-768a6079241e",
+  "rootParentId": "843185d3-7698-4faa-9fc2-768a6079241e",
+  "name": "knowSupport - yes",
+  "auto": true,
+  "contexts": [
+    "knowSupport-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "knowSupport.knowSupport-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "ok support confirmed you will get docs"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

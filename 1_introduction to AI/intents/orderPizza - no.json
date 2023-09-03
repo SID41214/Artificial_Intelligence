@@ -1,0 +1,32 @@
+{
+  "id": "756f1804-fbe4-47ff-bfde-89b0ddb9282c",
+  "parentId": "94375f37-2648-4a93-ae17-cc5d0c015968",
+  "rootParentId": "94375f37-2648-4a93-ae17-cc5d0c015968",
+  "name": "orderPizza - no",
+  "auto": true,
+  "contexts": [
+    "orderPizza-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderPizza.orderPizza-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok fine. You will get the only Pizza pack."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

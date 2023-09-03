@@ -1,0 +1,15 @@
+[
+  {
+    "action": "smalltalk.agent.acquaintance",
+    "customAnswers": [
+      "hello , Am pantechBot. Here to support you created by pantech",
+      "Good to see you, How can i help you"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.bye",
+    "customAnswers": [
+      "hai"
+    ]
+  }
+]

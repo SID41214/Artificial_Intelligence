@@ -1,0 +1,143 @@
+{
+  "id": "843185d3-7698-4faa-9fc2-768a6079241e",
+  "name": "knowSupport",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "knowSupport-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f994ba9a-17ca-40a4-8f8d-f42962509967",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Give me your mail ID"
+            },
+            {
+              "lang": "en",
+              "value": "type your email ID?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "f1bba6d7-cd5a-4ec4-9ca2-eadd91e44566",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "can you provide me the phone number"
+            },
+            {
+              "lang": "en",
+              "value": "please send me your phone number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b9f1ded4-a054-41dc-a3a6-0c093ad91b4f",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "82654336-e1bf-4a09-a01d-5f55432422d5",
+          "required": true,
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "send me your country name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "86244c8a-bc76-4f53-940e-fbb389b937e0",
+          "required": true,
+          "dataType": "@dspsupportTypes",
+          "name": "dspsupportTypes",
+          "value": "$dspsupportTypes",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "11923bd5-59df-4a04-af4d-ff91408b55b1",
+          "required": true,
+          "dataType": "@dspboardVersion",
+          "name": "dspboardVersion",
+          "value": "$dspboardVersion",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Tell me your version"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Look into this website",
+            "Look this site",
+            "current report version of dsp board is $date and your email id is $email $dspsupportTypes $dspboardVersion do you want word doc?",
+            "your report details on $"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
